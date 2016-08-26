@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.com.richmond.catalog.Readers"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/colorPrimary"
+        android:gravity="center_horizontal"
+        android:id="@+id/bottomBar">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button_home"
+            android:drawableTop="@drawable/home"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="goHome"
+            android:text="Home"
+            android:textColor="@color/blanco"
+            android:textSize="14dp"
+            android:textAllCaps="false"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="5dp"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button_about"
+            android:drawableTop="@drawable/about"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="goAbout"
+            android:text="About Us"
+            android:textColor="@color/blanco"
+            android:textSize="14dp"
+            android:textAllCaps="false"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="5dp"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button_where"
+            android:drawableTop="@drawable/where"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="goWhere"
+            android:text="Where to buy"
+            android:textColor="@color/blanco"
+            android:textSize="14dp"
+            android:textAllCaps="false"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="5dp"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textReaders"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        android:textSize="12dp" />
+
+    <GridView
+        android:id="@+id/cuadrosReaders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="2"
+        android:layout_above="@+id/bottomBar"
+        android:layout_below="@+id/textReaders"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp" />
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bbd72b</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#fd8b07</color>
+    <color name="blanco">#ffffff</color>
+
+    <color name="colorPreeschool">#fa9d26</color>
+    <color name="colorPrimaria">#01b2c6</color>
+    <color name="colorSecundaria">#9b519c</color>
+    <color name="colorYoung">#06b79d</color>
+    <color name="colorSupplementary">#f16161</color>
+    <color name="colorExams">#e8b90b</color>
+    <color name="colorDigital">#d5e03c</color>
+    <color name="colorReaders">#4e8abe</color>
+
+    <drawable name="drawablePrimary">#bbd72b</drawable>
+    <drawable name="drawablePreeschool">#fa9d26</drawable>
+    <drawable name="drawablePrimaria">#01b2c6</drawable>
+    <drawable name="drawableSecundaria">#9b519c</drawable>
+    <drawable name="drawableYoung">#06b79d</drawable>
+    <drawable name="drawableSupplementary">#f16161</drawable>
+    <drawable name="drawableExams">#e8b90b</drawable>
+    <drawable name="drawableDigital">#d5e03c</drawable>
+    <drawable name="drawableReaders">#4e8abe</drawable>
+</resources>

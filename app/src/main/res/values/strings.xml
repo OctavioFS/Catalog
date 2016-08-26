@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Richmond ELT Catalog 2016</string>
+    <string name="name_header">Richmond</string>
+
+    <string name="action_home">Home</string>
+    <string name="action_about">About Us</string>
+    <string name="action_where">Where to buy</string>
+
+    <string-array name="states">
+        <item>Ciudad de México</item>
+        <item>Estado de México</item>
+        <item>Baja California</item>
+        <item>Baja California Sur</item>
+        <item>Campeche</item>
+        <item>Chiapas</item>
+        <item>Chihuahua</item>
+        <item>Durango</item>
+        <item>Guanajuato</item>
+        <item>Guerrero</item>
+        <item>Jalisco</item>
+        <item>Michoacán</item>
+        <item>Nayarit</item>
+        <item>Nuevo León</item>
+        <item>Oaxaca</item>
+        <item>Puebla</item>
+        <item>Querétaro</item>
+        <item>Quintana Roo</item>
+        <item>San Luis Potosí</item>
+        <item>Sinaloa</item>
+        <item>Sonora</item>
+        <item>Tabasco</item>
+        <item>Tamaulipas</item>
+        <item>Veracruz</item>
+        <item>Yucatán</item>
+        <item>Zacatecas</item>
+    </string-array>
+
+</resources>
